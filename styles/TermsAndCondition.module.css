@@ -1,35 +1,121 @@
-.mainDiv{
-    margin:0;
-    padding:0;
-    display:flex;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+.mainDiv {
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
     align-items: center;
     justify-content: center;
     background-image: url('../public/assets/ic_Image.png');
     background-size: cover;
-    height:1001px;
+    background-attachment: fixed;
 
 }
 
-.overlay{
-    width:840px;
-    height:848px;
+.overlay {
+    width: 840px;
+    height: 848px;
     border-radius: 20px;
     background-color: #1B183B;
+    margin:30px 0px 30px 0px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+
 }
 
 
-.ic_close{
+.ic_close {
     height: 24px;
     width: 24px;
 
 }
 
-.close{
-    float:right;
-    margin:40px 40px 784px 776px;
+.close {
+    margin: 40px 40px 0px 776px;
+    cursor: pointer;
 }
 
-.ic-logo {
-    height: 400px;
-    width: 300px;
+.ic_logo{
+    height: 100px;
+    width: 111px;
+    box-shadow: 0 0 0 0 #D864FF;
+
 }
+
+.logo {
+    height: 100px;
+    width:251px;
+    margin: 0px 0px 90px 280px;
+}
+
+.termsCondition{
+    display:flex;
+    flex-direction: column;
+    height:480px;
+    overflow-y:auto;
+}
+
+.title {
+    margin: 0px 0px 0px 30px;
+    height: 25px;
+    width: 226px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.effectiveJuly {
+    height: 220px;
+    width: 740px;
+    color: #767489;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 5px 50px 0px 30px;
+}
+
+.partnerServices {
+    margin: 50px 642px 0px 30px;
+    height: 20px;
+    width: 148px;
+    color: #767489;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.content {
+    height: 580px;
+    width: 740px;
+    color: #767489;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.boldWords {
+    color: #008CFE;
+}
+
+.termsCondition::-webkit-scrollbar{
+    width: 8px;
+
+}
+
+.termsCondition::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #767489;
+    height: 5px;
+}
+
+  
