@@ -1,0 +1,35 @@
+.mainDiv{
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../public/assets/ic_Image.png');
+    background-size: cover;
+    height:1001px;
+
+}
+
+.overlay{
+    width:840px;
+    height:848px;
+    border-radius: 20px;
+    background-color: #1B183B;
+}
+
+
+.ic_close{
+    height: 24px;
+    width: 24px;
+
+}
+
+.close{
+    float:right;
+    margin:40px 40px 784px 776px;
+}
+
+.ic-logo {
+    height: 400px;
+    width: 300px;
+}
