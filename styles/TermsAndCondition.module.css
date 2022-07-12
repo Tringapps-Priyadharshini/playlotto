@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 
 .mainDiv {
-    /* margin: 0;
-    padding: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url('../public/assets/ic_Image.png');
     background-size: cover;
     background-attachment: fixed;
-
 }
+
 
 .overlay {
     width: 840px;
@@ -54,7 +52,7 @@
 .termsCondition{
     display:flex;
     flex-direction: column;
-    height:480px;
+    height:500px;
     overflow-y:auto;
 }
 
@@ -118,4 +116,10 @@
     height: 5px;
 }
 
-  
+.alignment{
+    margin-left: 20px;
+}
+
+.subAlignment{
+    margin-left: 40px;
+}
